@@ -1,7 +1,7 @@
 #   To check address: sudo i2cdetect -y 1
 
 import smbus
-import sleep from time
+from time import sleep
 
 class PCF8591:
 
