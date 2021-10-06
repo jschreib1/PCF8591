@@ -9,7 +9,7 @@ print('Working')
 while True:
   print("Working in the While Loop")
   try:
-    joystick(0x40)
+    joystick(0x40, 127, 127)
     x = joystick.getx()
     y = joystick.gety()
     print('%s, %s'.format(x,y))
