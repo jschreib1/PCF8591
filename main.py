@@ -38,4 +38,4 @@ class Joystick:
       return PCF8591.read(2)
       sleep(100)
 
-  print('%s, %s'.format(self.x, self.y))
+    print('%s, %s'.format(self.x, self.y))
