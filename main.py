@@ -11,7 +11,7 @@ while True:
   try:
     myJoystick = Joystick(0x48)
     x = myJoystick.getx()
-    y = myJoystick.gety().rjust(5)
+    y = myJoystick.gety().rjust()
     print('{:d}, {:d}'.format(x,y))
     sleep(0.1)
   
