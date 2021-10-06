@@ -12,6 +12,3 @@ class Joystick:
     def gety():
       #print(PCF8591.read(2))
       return PCF8591.read(2)
-
-    print('%s, %s'.format(self.x, self.y))
-    sleep(100)
