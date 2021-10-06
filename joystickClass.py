@@ -2,8 +2,8 @@ from time import sleep
 from PCF import PCF8591
 
 class Joystick:
-  def __init__(self, address, x, y):
-    self.PCF8591 = PCF8591(address, x, y)
+  def __init__(self, address):
+    self.PCF8591 = PCF8591(address)
     #PCF8591(0x40)
     self.x = self.getx()
     self.y = self.gety()
