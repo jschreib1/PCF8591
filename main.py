@@ -13,6 +13,7 @@ while True:
     x = myJoystick.getx()
     y = myJoystick.gety()
     print('{:d}, {:d}'.format(x,y))
+    sleep(0.1)
   
   except KeyboardInterrupt:
     print('shutting down joystick')

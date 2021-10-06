@@ -4,7 +4,7 @@ from PCF import PCF8591
 class Joystick:
   def __init__(self, address, x, y):
     self.PCF8591 = PCF8591(address, x, y)
-    PCF8591(0x40)
+    #PCF8591(0x40)
     self.x = self.getx()
     self.y = self.gety()
     def getx():
