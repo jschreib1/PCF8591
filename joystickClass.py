@@ -5,8 +5,6 @@ class Joystick:
   def __init__(self, address):
     self.PCF8591 = PCF8591(address)
     #PCF8591(0x40)
-    self.x = self.getx()
-    self.y = self.gety()
     def getx():
       #print(PCF8591.read(1))
       return PCF8591.read(1)
