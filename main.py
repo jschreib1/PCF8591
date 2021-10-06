@@ -9,7 +9,7 @@ print('Working')
 while True:
   print("Working in the While Loop")
   try:
-    myJoystick = Joystick(0x40)
+    myJoystick = Joystick(0x48)
     x = myJoystick.getx()
     y = myJoystick.gety()
     y.rjust(5)
